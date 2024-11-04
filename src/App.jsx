@@ -1,11 +1,27 @@
 
+import { useEffect, useState } from 'react'
 import './App.css'
 import Banner from './Component/Banner/Banner'
+import AddToCard from './Component/Card/AddToCard'
 import Header from './Component/Header/Header'
 import Recipe from './Component/Recipe/Recipe'
 
 function App() {
  
+
+
+let [remaing, setRemaing] = useState([])
+
+
+let handle = (e) =>{
+  let newData = [...remaing, e]
+  setRemaing(newData)
+}
+
+
+
+
+
 
   return (
     <>
@@ -14,7 +30,12 @@ function App() {
       <Header></Header>
       
     <Banner></Banner>
-<Recipe></Recipe>
+<div className='flex gap-10'>
+<Recipe handle={handle}></Recipe>
+
+<AddToCard remaing={remaing}></AddToCard>
+
+</div>
 
 
 

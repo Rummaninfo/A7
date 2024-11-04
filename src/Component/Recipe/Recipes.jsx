@@ -1,11 +1,11 @@
 
 
-const Recipes = ({props}) => {
+const Recipes = ({props,handle}) => {
    console.log(props)
     let {cover_img,recipe_name,short_description, ingredients,calories,preparing_time} = props
     return (
-        <div>
- <div className="border-2	p-8 w-80">
+       
+ <div className="border-2	p-10 w-2/3 w-[320px]  rounded-2xl space-y-2">
 <img className="w-60" src={cover_img} alt="" />
 <h1>{recipe_name}</h1>
 <p>{short_description}</p>
@@ -29,14 +29,12 @@ const Recipes = ({props}) => {
     <p>{calories}</p>
 </div>
 <div className="mt-3">
-<button  className="bg-[#0BE58A] py-2 px-4 rounded-full">Went to cook</button>
+<button onClick={()=>handle(props)}  className="bg-[#0BE58A] py-2 px-4 rounded-full">Went to cook</button>
 </div>
  </div>
 
 
-
-
-        </div>
+       
     );
 };
 
