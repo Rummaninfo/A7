@@ -1,16 +1,27 @@
 
 import './App.css'
+import Banner from './Component/Banner/Banner'
 import Header from './Component/Header/Header'
+import Recipe from './Component/Recipe/Recipe'
 
 function App() {
  
 
   return (
     <>
+    <div className='w-[1120px] mx-auto mt-5'>
     
-      <div className='w-[1220px] mx-auto mt-5'>
       <Header></Header>
-      </div>
+      
+    <Banner></Banner>
+<Recipe></Recipe>
+
+
+
+
+
+    </div>
+     
     
       
      
