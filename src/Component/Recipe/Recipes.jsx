@@ -1,14 +1,14 @@
 
 
 const Recipes = ({props,handle}) => {
-   console.log(props)
+//    console.log(props)
     let {cover_img,recipe_name,short_description, ingredients,calories,preparing_time} = props
     return (
        
- <div className="border-2	p-10 w-2/3 w-[320px]  rounded-2xl space-y-2">
+ <div className="border-2 h-full	p-8 w-2/3 w-[320px]  rounded-2xl space-y-2">
 <img className="w-60" src={cover_img} alt="" />
 <h1>{recipe_name}</h1>
-<p>{short_description}</p>
+<p>{short_description.slice(0,75)}</p>
 <hr className="mt-3 mb-3" />
 
 <div>

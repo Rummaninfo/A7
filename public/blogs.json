@@ -4,7 +4,7 @@
       "recipe_name": "Spicy Garlic Chicken",
       "short_description": "A zesty, flavorful chicken dish with a kick of garlic and spice.",
       "ingredients": ["chicken breast", "garlic", "chili powder", "olive oil", "salt", "pepper"],
-      "preparing_time": "30 minutes",
+      "preparing_time": "30",
       "calories": 320,
       "cover_img": "https://i.ibb.co.com/YfRFjCG/recipe-1.jpg"
     },
@@ -13,7 +13,7 @@
       "recipe_name": "Vegan Buddha Bowl",
       "short_description": "A colorful and nutritious bowl packed with veggies, grains, and protein.",
       "ingredients": ["quinoa", "spinach", "chickpeas", "avocado", "carrots", "sesame seeds"],
-      "preparing_time": "20 minutes",
+      "preparing_time": "20",
       "calories": 450,
       "cover_img": "https://i.ibb.co.com/8NMjhCx/R2.jpg"
     },
@@ -22,7 +22,7 @@
       "recipe_name": "Classic Margherita Pizza",
       "short_description": "A classic Italian pizza with fresh tomatoes, basil, and mozzarella cheese.",
       "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "fresh basil", "olive oil", "salt"],
-      "preparing_time": "25 minutes",
+      "preparing_time": "25",
       "calories": 600,
       "cover_img": "https://i.ibb.co.com/P1RMmGw/R3.jpg"
     },
@@ -31,7 +31,7 @@
       "recipe_name": "Avocado Toast with Poached Eggs",
       "short_description": "Creamy avocado on toast topped with a perfectly poached egg.",
       "ingredients": ["avocado", "whole grain bread", "egg", "lemon juice", "salt", "pepper"],
-      "preparing_time": "15 minutes",
+      "preparing_time": "15",
       "calories": 250,
       "cover_img": "https://i.ibb.co.com/D7cyPHy/R4.jpg"
     },
@@ -40,7 +40,7 @@
       "recipe_name": "Beef Tacos",
       "short_description": "Savory beef tacos with fresh toppings and a hint of spice.",
       "ingredients": ["ground beef", "taco shells", "lettuce", "tomato", "cheese", "sour cream"],
-      "preparing_time": "20 minutes",
+      "preparing_time": "20",
       "calories": 450,
       "cover_img": "https://i.ibb.co.com/SKD3vmc/R5.jpg"
     },
@@ -49,7 +49,7 @@
       "recipe_name": "Berry Smoothie Bowl",
       "short_description": "A refreshing and nutritious smoothie bowl topped with fresh berries and seeds.",
       "ingredients": ["frozen berries", "banana", "almond milk", "chia seeds", "granola", "honey"],
-      "preparing_time": "10 minutes",
+      "preparing_time": "10",
       "calories": 300,
       "cover_img": "https://i.ibb.co.com/KhhZg5d/R6.jpg"
     }

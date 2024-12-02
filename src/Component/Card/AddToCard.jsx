@@ -2,7 +2,7 @@ import CardShow from "./CardShow";
 
 
 const AddToCard = ({remaing}) => {
-    console.log(remaing,'add to card')
+    // console.log(remaing,'add to card')
     let {preparing_time,calories,recipe_name} = remaing
     return (
 
@@ -18,10 +18,12 @@ const AddToCard = ({remaing}) => {
             <h1>Name: </h1>
             <h1>Time</h1>
             <h1>Calories</h1>
+          <button>d</button>
            </div>
 
            <div className="">
            
+
             {remaing.map(data => <CardShow data={data}></CardShow>)}
            </div>
         </div>
